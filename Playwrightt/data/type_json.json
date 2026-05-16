@@ -1,0 +1,16 @@
+{
+    "baseUrl": "https://rahulshettyacademy.com",
+    "users": [
+        {"userEmail": "user1@gmail.com", "userPassword": "Pass1", "role": "admin"},
+        {"userEmail": "user2@gmail.com", "userPassword": "Pass2", "role": "user"}
+    ],
+    "order": {
+        "country": "India",
+        "productId": "6960eac0c941646b7a8b3e68",
+        "productName": "ZARA COAT 3"
+    },
+    "messages": {
+        "loginSuccess": "Thank you for Shopping With Us",
+        "orderPlaced": "Order Placed Successfully"
+    }
+}
