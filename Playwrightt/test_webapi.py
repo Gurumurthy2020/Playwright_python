@@ -11,7 +11,8 @@ def test_e2e_web_api(playwright:Playwright):
 
     # create order by api
     api_utils = APIUtils()
-    orderid = api_utils.createOrder(playwright)
+    credentials = {"userEmail": "mytestinggg1990@gmail.com", "userPassword": "Testing@123"}
+    orderid = api_utils.createOrder(playwright, credentials)
 
     # using ui we are logging
     page.goto("https://rahulshettyacademy.com/client/#/auth/login")
